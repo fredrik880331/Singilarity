@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import App from '@/App'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import Robotmaker1 from '@/components/pages/RobotMakerOne'
