@@ -122,5 +122,3 @@ if (config.build.bundleAnalyzerReport) {
 }
 
 module.exports = webpackConfig
-
-

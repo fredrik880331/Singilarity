@@ -32,7 +32,7 @@ export default {
   data () {
     return {
       robotmaker1Thumbnail: {
-        title:'RobotMakerOne2',
+        title:'RobotMakerOne',
         info: 'RobotMakerOne är en AI-motor som är designad för att klara av att utveckla nästa generation av AI-algoritmer. Den är byggd från botten upp för att kunna använda sig av...',
         imagePath:require("../assets/RM1 logo.png"),
         link: "#/Robotmaker1"},
