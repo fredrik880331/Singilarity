@@ -25,15 +25,15 @@ export default {
 body{
   background-color:#f3f3f3;
 }
-h1{
-   margin-bottom:0px;
+.pageTitle{
+    font-size: 40px;
 }
-h2{
+.pageIntro{
   font-size: 18px;
   line-height: 120%;
    text-align: justify; 
 }
-h3{
+.sectionTitle{
     font-size: 20px;
     margin-bottom:0px;
 }
