@@ -1,10 +1,10 @@
 <template>
-<div class="wrapper">
+
   <div id="app">
     <navbar></navbar>
     <router-view/>
   </div>
-</div>  
+
 </template>
 
 <script>
@@ -29,7 +29,7 @@ body{
 h1{
    margin-bottom:0px;
 }
-.wrapper h2 {
+h2.fix {
   font-size: 18px;
   line-height: 120%;
    text-align: justify; 
