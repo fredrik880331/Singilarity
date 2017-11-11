@@ -9,7 +9,7 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <h1>Kontakt</h1>
-            <h2 class="fix">Vill du veta mer om Singilarity och våra produkter så får du gärna höra av dig med frågor. </h2>
+            <h2>Vill du veta mer om Singilarity och våra produkter så får du gärna höra av dig med frågor. </h2>
             <br>
             <h3>Växel</h3>
             <p>Tel: 0761-848504 <br>Mail: info@singilarity.com</p>

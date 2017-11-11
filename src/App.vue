@@ -29,7 +29,7 @@ body{
 h1{
    margin-bottom:0px;
 }
-h2.fix {
+h2 {
   font-size: 18px;
   line-height: 120%;
    text-align: justify; 
