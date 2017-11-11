@@ -1,9 +1,10 @@
 <template>
-
+<div class="wrapper">
   <div id="app">
     <navbar></navbar>
     <router-view/>
   </div>
+</div>  
 </template>
 
 <script>
@@ -12,7 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -28,7 +29,7 @@ body{
 h1{
    margin-bottom:0px;
 }
-h2{
+.wrapper h2 {
   font-size: 18px;
   line-height: 120%;
    text-align: justify; 

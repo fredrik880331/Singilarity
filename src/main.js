@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-
+import jQuery from 'jquery'
+global.jQuery = jQuery
+let Bootstrap = require('bootstrap')
+import 'bootstrap/dist/css/bootstrap.css'
 
 import navbar from '@/components/navbar'
 import thumbnail from '@/components/thumbnail'
@@ -12,12 +15,6 @@ import page from '@/components/page'
 Vue.component('navbar',navbar);
 Vue.component('thumbnail',thumbnail);
 Vue.component('page',page);
-
-
-import jQuery from 'jquery'
-global.jQuery = jQuery
-let Bootstrap = require('bootstrap')
-import 'bootstrap/dist/css/bootstrap.css'
 
 export const bus = new Vue();
 
