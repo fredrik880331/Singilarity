@@ -26,7 +26,7 @@ export default {
   background-color:#f3f3f3;
 }*/
 .pageTitle{
-    font-size: 40px;
+    font-size: 35px;
 }
 .pageIntro{
   font-size: 18px;
