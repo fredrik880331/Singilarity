@@ -36,9 +36,9 @@ export default {
         }
     }
     },
-    created() {
-        
-       bus.$emit('SetActiveNavbar','Kontakt');
+    created() {     
+      bus.$emit('SetActiveNavbar','Kontakt');
+      window.scrollTo(0, 0);
     }
 }
 </script>

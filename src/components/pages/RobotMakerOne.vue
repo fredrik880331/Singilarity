@@ -45,6 +45,7 @@ export default {
   },
     created() {  
        bus.$emit('SetActiveNavbar','Produkter');
+       window.scrollTo(0, 0);
     }
 }
 </script>

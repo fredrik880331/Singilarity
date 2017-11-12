@@ -120,6 +120,7 @@ export default {
   },
     created() {  
        bus.$emit('SetActiveNavbar','Artiklar');
+       window.scrollTo(0, 0);
     }
 }
 </script>

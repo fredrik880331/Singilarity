@@ -33,6 +33,7 @@ export default {
   },
     created() {  
        bus.$emit('SetActiveNavbar','OmFöretaget');
+       window.scrollTo(0, 0);
     }
 }
 </script>
