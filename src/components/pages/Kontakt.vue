@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="wrapper">
 <page :data = "data" ></page>
   
   <div class="container ">   
@@ -42,3 +42,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.wrapper{
+  background-color:#f3f3f3;
+  height: calc(100vh - 52px);
+}
+</style>

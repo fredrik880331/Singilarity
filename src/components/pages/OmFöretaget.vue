@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="wrapper">
 <page :data = "data" ></page>
 
   <div class="container ">   
@@ -8,12 +8,10 @@
 
         <div class="panel panel-default">
           <div class="panel-body">
-            <h1>Om Singilarity</h1>
-                <h2> Varför finns det inte intelligenta robotar? Det är frågan som är fröet till det som idag är Singilarity.</h2>
+            <div class="pageTitle">Om Singilarity</div>
+                <div class="pageIntro"> Varför finns det inte intelligenta robotar? Det är frågan som är fröet till det som idag är Singilarity.</div>
                 <p> Svaret är att hur avancerade dagens robotar än ser ut har väldigt svårt att förstå vad de tittar på. Singilarity är företaget som med hjälp av sig egenutvecklade plattform RobotMakerOne tagit fram nästa generation av vision algoritmer som klarar av att lösa just detta. </p>
                 <p> Om ni vill veta mer om Sinilarity och våra produkter kan ni kontakta oss <a href="#/Kontakt">här</a>.</p>
-
-    
            </div>
         </div>
 
@@ -38,3 +36,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.wrapper{
+  background-color:#f3f3f3;
+  height: calc(100vh - 52px);
+}
+</style>

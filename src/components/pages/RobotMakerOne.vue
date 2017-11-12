@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="wrapper">
 <page :data = "data" ></page>
   <div class="container ">   
     <div class="col-md-2"></div>
@@ -7,7 +7,7 @@
 
         <div class="panel panel-default">
           <div class="panel-body">
-            <h1>RobotMakerOne</h1>
+            <div class="pageTitle">RobotMakerOne</div>
             <p>RobotMakerOne är en AI-motor som är designad för att klara av att utveckla nästa generation av AI-algoritmer. Den är byggd från botten upp för att kunna använda sig av data från nya sensorer så som lidar och 3d kameror. RobotMakerOne är inte svaret på vad vilka algoritmer som kommer ge robotar möjligheten att ta sig till nästa nivå av deras utveckling. Utan det är medlet som kommer göra det möjligt att ta sig dit.</p>
             <p>RobotMakerOne har många nödvändiga algoritmer implementerade för utveckling av nästa generations vision system. Två exempel är edge detection och isotropisk remeshing.</p>
             <br>
@@ -48,3 +48,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.wrapper{
+  background-color:#f3f3f3;
+  height: calc(100vh - 52px);
+}
+</style>

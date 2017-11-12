@@ -67,6 +67,10 @@ console.log("recive");
     margin-bottom: 0;  
 }
 
+li {
+  text-align:center;
+}
+
 .navbar .nav >li.active > a {
   background-color: #e0e0e0;
 }

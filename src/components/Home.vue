@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div>
     <div class ="imageWrapper">
       <img class ="image" src="../assets/logo1.jpg">
     </div>
@@ -19,7 +19,7 @@
       
       </div>
     </div>
-  </div>
+ </div>
 
 
 </template>
@@ -82,7 +82,7 @@ font-size:30px;
   background: #e0e0e0;
   width:100%;
 }
-.wrapper{
+/*.wrapper{
   background-color:white;
-}
+}*/
 </style>

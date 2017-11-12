@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="wrapper">
 <page :data = "data" ></page>
   
   <div class="container ">   
@@ -8,13 +8,13 @@
 
         <div class="panel panel-default">
             <div class="panel-body">
-                <h1>The missing link in robotics</h1>
+                <div class="pageTitle">The missing link in robotics</div>
                 
-                <h2>In this article we search for <i>“the missing link in robotics”</i>. We state that this is the field that is 
+                <div class="pageIntro">In this article we search for <i>“the missing link in robotics”</i>. We state that this is the field that is 
                 holding back the robot development from becoming truly intelligent. We look at what defines a robot 
-                and the main robotic architecture control systems. In the end we will find what is holding the robotic development back. </h2>
+                and the main robotic architecture control systems. In the end we will find what is holding the robotic development back. </div>
                 
-                <h3>Why are there no intelligent robots?</h3>     
+                <div class="sectionTitle">Why are there no intelligent robots?</div>     
                 <p>We are going to try to answer this fundamental question: <i>“Why are there no intelligent robots?”.</i> The difficulty 
                 to answer this question lies in complexity of the robotic field. There have existed programmable robots for over 
                 60 years. Ever sins George Devol’s first successful attempt. And still there doesn’t exist robots sophisticated 
@@ -30,7 +30,7 @@
                 and what kinds of architectures are used. If we don’t know how to define a robot correctly, it doesn’t matter that all the technologies 
                 used works perfectly. It still won’t work.</p>
                 
-                <h3>What's a robot?</h3>
+                <div class="sectionTitle">What's a robot?</div>
                 <p>There is no single or correct definition of a robot. RIA (Robot Institute of America) use this definition: <i>"A reprogrammable, multifunctional 
                 manipulator designed to move material, parts, tools, or specialized devices through various programmed functions for the performance of a 
                 variety of tasks."</i></p>
@@ -59,15 +59,17 @@
                 <br>
                 <img class="contentImage" src="../../assets/sense-think-act.png" >
 
-                <h3>Technologies in robotics</h3>
+                <div class="sectionTitle">Technologies in robotics</div>
                 <p>We are now going to take a closer look at the technologies that makes up the foundation of robotics today. We are going to do it from the classical AI 
                 side of deliberative control. We will use deliberative control instead of the arguably more popular behavioural control. Because it more straightforward 
                 represent all of the technologies used in robotics. </p>
                 <p>We take a closer look into the different technologies that make up a robot because, it stands to reason that if an intelligent robot is a machine that 
                 can sense, plan and act. There need to be a problem in at least one of the technologies used these fields. Otherwise we would have intelligent robots today. </p>
-                <h4>Sense</h4>
+                
+                <div class = "subSectionTitle">Sense</div>
                 <p>By the ability to sense we refer to the different kinds of input the robot gets from its sensors.  There are many kinds of sensors used, for example IR (Infra-Red), heat and pressure sensors. But we will focus on sensors for vision systems. This is because they are the most complex to process and to be able to create a <i>"Class 6: intelligent robot"</i> it needs to have a working vision system. Today the vision systems that are in use are: single camera, stereo camera and lidar-systems. Single camera is simply a camera that sends image information to the robot. This has been up to recently the most commonly used vision system. The resent breakthrough in lidar technology and cost has made lidars take a larger share of the market and today rivals ordinary cameras.  Stereo cameras are simply two cameras that work in tandem just as the human vision system. The advantage of two cameras is that it makes depth perception possible. This makes it easier to extract 3D information from 2D pictures. Unfortunately there has been limited success in this field and today only a fraction of robots use stereo cameras. Lidar (Laser Interferometry Detection and Ranging) is a camera that with help from a laser is able to extract 3D information from its surroundings. Because of the drop in price lidars have become very popular lately. The Microsoft Kinect was the first mass produced flash lidar for under 100$. The lidars that now is coming to market are the first sensors that cheaply gives engineers the possibility to give robots a 3D view of its surroundings in real time.</p>
-                <h4>Plan</h4>
+               
+                <div class = "subSectionTitle">Plan</div>
                 <p>Planning refers to all the processes that are needed for the robot to be able to decide what to do next. This could just as well been called AI (Artificial 
                 Intelligent). This is because all or at least nearly all of the algorithms used here are classed as AI. AI is broad and not very well defined field. You 
                 could say that this is because all the newest research in computer science gets classified as AI and because of this, it in its broadest sense encapsulates 
@@ -81,11 +83,11 @@
                 <p>Object categorization  is the Holy Grail in robotics. If object recognition is to recognize a hammer you have seen, object categorization is to recognize all hammers. There has been very little progress in this field.</p>
                 <p>SLAM (Simultaneous Localization and Mapping)  are algorithms that try to create a map of its surrounding at the same time as it is locating itself in that map. These algorithms have taken a huge leap forward in resent time. Much thanks to the new development in liars. IPC (Iterative Closest Point) is today use by all SLAM algorithms. IPC has made it possible to use SLAM in real time. IPC is however not without faults. It is a very heavy computation and this results in that if the robot gets lost it can’t relocate itself again. </p>
                
-               <h4>Act</h4>
+               <div class = "subSectionTitle">Act</div>
                 <p>To act means the actions the robot need to do to execute what it has decided during its planning. A simple robot maybe only have solved a 2D path planning problem and  only have wheels as extremities. This posts very little problem to execute. A more complex robot may have solved a 3D path planning problem or how to interact with something in 3D space using limbs. This is a much harder problem to solve.  The robot need to solve the problem of kinematics and dynamics aspects of controlling physical object with multiple joints I 3D space. This problem’s theoretical foundation has been known for a long time and today we can see the result of this. </p>  
                 <p>Today we don’t consider the control of the robots extremities as something that is holding back the robotic development.</p>  
                 
-                <h4>Where’s the missing link?</h4>
+                <div class = "subSectionTitle">Where’s the missing link?</div>
                 <p>We have looked into the different parts that make up a robot. We are now going to see if we can find what is holding back the robotic development and thus find the missing link in robotics. To do this we will look back at what we have found out about of the different technologies that make up a robot. </p> 
                  
                  <div class="indent">
@@ -121,3 +123,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.wrapper{
+  background-color:#f3f3f3;
+  height: calc(100vh - 52px);
+}
+</style>

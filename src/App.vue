@@ -22,22 +22,23 @@ export default {
   color: #2c3e50;
 
 }
-body{
+/*body{
   background-color:#f3f3f3;
-}
+}*/
 .pageTitle{
     font-size: 40px;
 }
 .pageIntro{
   font-size: 18px;
   line-height: 120%;
-   text-align: justify; 
+  text-align: justify;
+  margin-bottom:10px; 
 }
 .sectionTitle{
     font-size: 20px;
     margin-bottom:0px;
 }
-h4{
+subSectionTitle{
     font-size: 18px;
     margin:0px;
 }
