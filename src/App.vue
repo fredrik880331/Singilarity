@@ -27,12 +27,14 @@ export default {
 }*/
 .pageTitle{
     font-size: 35px;
+    text-align:center;
+    margin-bottom:20px;
 }
 .pageIntro{
   font-size: 18px;
   line-height: 120%;
   text-align: justify;
-  margin-bottom:10px; 
+  margin-bottom:20px; 
 }
 .sectionTitle{
     font-size: 20px;

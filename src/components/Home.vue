@@ -33,7 +33,7 @@ export default {
     return {
       robotmaker1Thumbnail: {
         title:'RobotMakerOne',
-        info: 'RobotMakerOne är en AI-motor som är designad för att klara av att utveckla nästa generation av AI-algoritmer. Den är byggd från botten upp för att kunna använda sig av...',
+        info: 'Inom robotiken har det skett att paradigmskifte de senaste 10 åren. Robotar har gått från att enbart kunna använda sig av 2d teknik och simpla distans sensorer. Till att ta in hela...',
         imagePath:require("../assets/RM1 logo.png"),
         link: "#/Robotmaker1"},
       omFöretagetThumbnail: {
