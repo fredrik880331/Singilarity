@@ -12,11 +12,11 @@
     <div class="container">
       <div class="row">
         <thumbnail :data="robotmaker1Thumbnail"></thumbnail>    
-        <thumbnail :data="kontatOssThumbnail"></thumbnail>
+        <thumbnail :data="visionSystemThumbnail"></thumbnail>
         <thumbnail :data="omFöretagetThumbnail"></thumbnail>
         <thumbnail :data="missingLinkInRobotics"></thumbnail>
      
-      
+      <!--  <thumbnail :data="kontatOssThumbnail"></thumbnail>-->
       </div>
     </div>
  </div>
@@ -40,7 +40,7 @@ export default {
         title:'Om Sinilarity',
         info: 'Varför finns det inte intelligenta robotar? Det är frågan som är fröet till det som idag är Singilarity.',
         imagePath:require("../assets/Singilarity logo2 tagline.png"),
-        link: "#/OmFöretaget" },
+        link: "#/OmForetaget" },
       missingLinkInRobotics: {
         title:'The missing link in robotics',
         info: 'In this article we search for “the missing link in robotics”. We state that this is the field that is holding back the robot development from...',
@@ -50,7 +50,12 @@ export default {
         title:'Kontakt',
         info: 'Vill du veta mer om Sinilarity och våra produkter så får du gärna höra av dig med frågor.',
         imagePath:require("../assets/Contact us keyboard.jpg"),
-        link: "#/Kontakt"}       
+        link: "#/Kontakt"}, 
+      visionSystemThumbnail: {
+        title:'Vision system',
+        info: 'Info om Vison system.',
+        imagePath:require("../assets/Vision system.jpg"),
+        link: "#/VisionSystem"}             
     }
   },
     created() {

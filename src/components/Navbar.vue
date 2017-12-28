@@ -17,6 +17,7 @@
           <a  class="dropdown-toggle" data-toggle="dropdown" href="#">Produkter<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li ><a  v-on:click="setActive('Produkter')" href="#/Robotmaker1">RobotMakerOne</a></li>
+             <li ><a  v-on:click="setActive('Produkter')" href="#/VisionSystem">Vision system</a></li>
           </ul>
         </li>
           <li  :class="{ active: isActive('Artiklar') }" class="dropdown">
@@ -25,7 +26,7 @@
             <li><a  v-on:click="setActive('Artiklar')" href="#/MissingLinkInRobotics">The missing link in robotics</a></li>
           </ul>
         </li>
-        <li v-on:click="setActive('OmFöretaget')"  :class="{ active: isActive('OmFöretaget') }"><a   href="#/OmFöretaget">Om Singilarity</a></li>
+        <li v-on:click="setActive('OmFöretaget')"  :class="{ active: isActive('OmFöretaget') }"><a   href="#/OmForetaget">Om Singilarity</a></li>
       
         <li  v-on:click="setActive('Kontakt')"  :class="{ active: isActive('Kontakt') }"><a  href="#/Kontakt">Kontakt</a></li>
       </ul>
