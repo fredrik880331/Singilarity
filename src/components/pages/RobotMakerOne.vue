@@ -8,9 +8,10 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="pageTitle">RobotMakerOne</div>
-            <div class="pageIntro">Inom robotiken har det skett att paradigmskifte de senaste 10 åren. Robotar har gått från att enbart kunna använda sig av 2d teknik och simpla distans sensorer. Till att ta in hela punktmoln av sin omgivning i realtid. RobotMakerOne är en AI-motor som är byggd från grunden för att passa in i detta nya landskap.</div>
-            <p>RobotMakerOne designad för att hjälpa till med alla delar när det kommer till att utveckla nästa generations robotar. Den använder sig av en sense-plan-act arkitektur. Vilket gör det möjlig för dig att utveckla ett kontinuerligt flöde ända från sensor input till fysisk exekvering.  </p>
-            <p>RobotMakerOne har ett brett Computational Geometry bibliotek. Detta anses av många utvecklare vara den svåraste delen att utveckla själv. Vi har därför valt att lägga ett stort fokus på detta område. Exempel på algoritmer som finns färdigimplementerade är Edge detection och sotropisk remeshing.</p>
+            <div class="pageIntro">Inom robotiken har det skett att paradigmskifte de senaste 10 åren. Robotar har gått från att enbart kunna använda sig av 2D teknik och simpla distans sensorer. Till att ta in hela punktmoln av sin omgivning i realtid. Detta har gett upphov till en ny generation av mer avancerade robotar. Av de robotar som idag använder sig av denna nya teknik så är självkörande bilar de som fått störst genomslagskraft hos allmänheten. Det är dock så att detta teknikskifte har potentialen för så mycket mer och kan vara det som till slut öppnar dörren till verkligt autonoma robotar.</div>
+            <p>Singilarity har alltid haft ett tydligt fokus på att ligga i framkant inom robotiken och som mål att bygga robotar som kan ersätta det människor gör idag. Det vi fann vara att det idag inte fanns någon bra plattform för detta och därför var vi tvungna att ta fram vår egen plattform. Det var detta som blev RobotMakerOne. RobotMakerOne är en AI-motor som har två tydliga fokusområden. Att göra det så enkelt som möjligt att utveckla nya typer av AI och att kunna använda sig av den nyaste sensortekniken.</p>
+            <p>När man idag går från 2D till 3D sensorer så är ett av det absolut viktigaste områdena man måste behärska Computational Geometry. Därför kommer RobotMakerOne med ett robust bibliotek för grundläggande CG beräkningar. RobotMakerOne använder sig även av en sense-plan-act arkitektur. Vilket gör det möjlig att utveckla ett kontinuerligt flöde ända från sensor input till fysisk exekvering men har störst fokus på Computational Geometry. Detta för att det är flaskhalsen inom dagens robotikutveckling.</p>
+            <p>Exempel på grundläggande Computational Geometry beräkningar:</p> 
             <br>
             <img class="contentImage" src="../../assets/Double grid.jpg" >
             <p class ="contentImageInfo">Original mesh</p> 
@@ -18,9 +19,9 @@
             <p class ="contentImageInfo">Edge detection</p> 
             <img class="contentImage" src="../../assets/Isotropisk remeshing.jpg" >
             <p class ="contentImageInfo">Isotropisk remeshing</p> 
-            <p>Det är enkelt att lägga utveckla egna algoritmer och du får hjälp med såväl visuell debugging som kod strukturering. Det senaste systemet Singilaritys utvecklingsteam tagit fram med hjälp av RobotMakerOne är ett vision system. Som klarar av att identifiera ett objekt i en mesh på 200.000 verticer på 10 ms.</p>
+            <p>Singilarity har med hjälp av RobotMakerOne lyckats ta fram ett vision system som i realtid klarar av att identifiera komplexa objekt och deras position i en 3D rymd. Här nedan kan man de hur systemet lyckas identifiera en hammare i en hög av verktyg. För mer information om vision systemet kan du läsa <a href="#/VisionSystem">här</a>.</p>
             <img class="contentImage" src="../../assets/bröte.jpg" >
-            <p class ="contentImageInfo">Inskannad mesh</p>
+            <p class ="contentImageInfo">Verktyg</p>
             <img class="contentImage" src="../../assets/bröte hammer.jpg" >
             <p class ="contentImageInfo">Identifierad hammare</p>
             <br>
