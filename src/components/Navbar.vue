@@ -17,7 +17,7 @@
           <a  class="dropdown-toggle" data-toggle="dropdown" href="#">Produkter<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li ><a  v-on:click="setActive('Produkter')" href="#/Robotmaker1">RobotMakerOne</a></li>
-             <li ><a  v-on:click="setActive('Produkter')" href="#/VisionSystem">Vision system</a></li>
+             <li ><a  v-on:click="setActive('Produkter')" href="#/EagleEye">Eagle Eye</a></li>
           </ul>
         </li>
           <li  :class="{ active: isActive('Artiklar') }" class="dropdown">

@@ -12,7 +12,7 @@
     <div class="container">
       <div class="row">
         <thumbnail :data="robotmaker1Thumbnail"></thumbnail>    
-        <thumbnail :data="visionSystemThumbnail"></thumbnail>
+        <thumbnail :data="eagleEyeThumbnail"></thumbnail>
         <thumbnail :data="omFöretagetThumbnail"></thumbnail>
         <thumbnail :data="missingLinkInRobotics"></thumbnail>
      
@@ -51,11 +51,11 @@ export default {
         info: 'Vill du veta mer om Sinilarity och våra produkter så får du gärna höra av dig med frågor.',
         imagePath:require("../assets/Contact us keyboard.jpg"),
         link: "#/Kontakt"}, 
-      visionSystemThumbnail: {
-        title:'Vision system',
-        info: 'Info om Vison system.',
+      eagleEyeThumbnail: {
+        title:'Eagle Eye',
+        info: 'Eagle Eye är ett vision system som är framtaget med hjälp av Singilaritys egen AI-plattform RobotMakerOne för att ge robotar möjlighet att hjälpa människor i vardagen.',
         imagePath:require("../assets/Vision system.jpg"),
-        link: "#/VisionSystem"}             
+        link: "#/EagleEye"}             
     }
   },
     created() {

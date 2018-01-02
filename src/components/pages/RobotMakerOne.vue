@@ -19,7 +19,7 @@
             <p class ="contentImageInfo">Edge detection</p> 
             <img class="contentImage" src="../../assets/Isotropisk remeshing.jpg" >
             <p class ="contentImageInfo">Isotropisk remeshing</p> 
-            <p>Singilarity har med hjälp av RobotMakerOne lyckats ta fram ett vision system som i realtid klarar av att identifiera komplexa objekt och deras position i en 3D rymd. Här nedan kan man de hur systemet lyckas identifiera en hammare i en hög av verktyg. För mer information om vision systemet kan du läsa <a href="#/VisionSystem">här</a>.</p>
+            <p>Singilarity har med hjälp av RobotMakerOne lyckats ta fram ett vision system som i realtid klarar av att identifiera komplexa objekt och deras position i en 3D rymd. Här nedan kan man de hur systemet lyckas identifiera en hammare i en hög av verktyg. För mer information om vision systemet kan du läsa <a href="#/EagleEye">här</a>.</p>
             <img class="contentImage" src="../../assets/bröte.jpg" >
             <p class ="contentImageInfo">Verktyg</p>
             <img class="contentImage" src="../../assets/bröte hammer.jpg" >
