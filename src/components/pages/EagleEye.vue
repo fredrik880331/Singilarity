@@ -22,9 +22,9 @@
             <p>Eagle Eye klarar även av att hitta objekt även när den bara kan se delare av objektet. I exemplet nedan klarar den av att förstå att det står ett glas på bordet även som delar av glaset är sönder. Den klarar även av att förstå vilka delar som saknas för att kunna fatta ett informerat beslut.</p>
            
             <img class="contentImage" src="../../assets/Trasigt glas och hammare.jpg" >
-            <p class ="contentImageInfo">Bord med trasigt glas.</p>
+            <p class ="contentImageInfo">Bord med trasigt glas</p>
             <img class="contentImage" src="../../assets/Identifierat glas.jpg" >
-            <p class ="contentImageInfo">Identifierat glas.</p>
+            <p class ="contentImageInfo">Identifierat glas</p>
 
            </div>
         </div>

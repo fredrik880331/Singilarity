@@ -11,10 +11,9 @@
             <div class="pageTitle">Kontakt</div>
             <div class="pageIntro">Vill du veta mer om Singilarity och våra produkter så får du gärna höra av dig med frågor. </div>
             <br>
-            <div class="sectionTitle">Växel</div>
-            <p>Tel: 0761-848504 <br>Mail: info@singilarity.com</p>
-            <div class="sectionTitle">Adress</div>
-            <p>Alpvägen 22 <br> 16865 Bromma</p>
+      
+            <p>Tel: 0761-848504 <br>Mail: info@singilarity.com <br>Adress: Alpvägen 22, 16865 Bromma</p>
+
            </div>
         </div>
 

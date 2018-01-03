@@ -38,7 +38,7 @@ export default {
         link: "#/Robotmaker1"},
       omFöretagetThumbnail: {
         title:'Om Sinilarity',
-        info: 'Varför finns det inte intelligenta robotar? Det är frågan som är fröet till det som idag är Singilarity.',
+        info: 'I avsnittet ”Var är min robot?” från BBCs Horizon från 2008. Frågar Danny Wallace varför robotarna vi fantiserade om på 50-talet aldrig blivit verklighet. Flera år tidigare hade grundarna till Singilarity redan ställt sig precis samma fråga och tio år senare kan vi presentera både svaret och lösningen. ',
         imagePath:require("../assets/Singilarity logo2 tagline.png"),
         link: "#/OmForetaget" },
       missingLinkInRobotics: {
