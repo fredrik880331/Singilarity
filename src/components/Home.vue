@@ -33,7 +33,7 @@ export default {
     return {
       robotmaker1Thumbnail: {
         title:'RobotMakerOne',
-        info: 'Inom robotiken har det skett att paradigmskifte de senaste 10 åren. Robotar har gått från att enbart kunna använda sig av 2d teknik och simpla distans sensorer. Till att ta in hela...',
+        info: 'RobotMakerOne är en AI-plattform som Singilarity tagit fram för att kunna utveckla nästa generation av robotar.',
         imagePath:require("../assets/RM1 logo.png"),
         link: "#/Robotmaker1"},
       omFöretagetThumbnail: {
@@ -43,7 +43,7 @@ export default {
         link: "#/OmForetaget" },
       missingLinkInRobotics: {
         title:'The missing link in robotics',
-        info: 'In this article we search for “the missing link in robotics”. We state that this is the field that is holding back the robot development from...',
+        info: 'In this article we search for “the missing link in robotics”. We state that this is the field that is holding back the robot development from becoming truly intelligent. We look at what defines a robot and the main robotic architecture control systems. In the end we will find what is holding the robotic development back. ',
         imagePath:require("../assets/Missing link in robotics.jpg"),
         link: "#/MissingLinkInRobotics" },
       kontatOssThumbnail: {
