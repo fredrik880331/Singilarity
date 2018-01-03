@@ -3,10 +3,17 @@
     <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
         <a :href="data.link"><img class="image" :src="data.imagePath" ></a>
-        <div class="caption">
+        
+        <div class="caption hidden-xs">
             <div class="titel">{{data.title}}</div>
             <p>{{data.info}}</p>
         </div>
+
+        <div class="captionMobile visible-xs">
+            <div class="titel">{{data.title}}</div>
+            <p>{{data.info}}</p>
+        </div>
+
           <div class="text-right">
               <a :href="data.link" class="btn btn-default" role="button">Read more</a>
             </div>
@@ -37,6 +44,9 @@ export default {
 .caption{
     height:150px;
     overflow:hidden;
+     
+}
+.captionMobile{
 }
 
 .btn{

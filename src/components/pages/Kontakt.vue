@@ -11,9 +11,7 @@
             <div class="pageTitle">Kontakt</div>
             <div class="pageIntro">Vill du veta mer om Singilarity och våra produkter så får du gärna höra av dig med frågor. </div>
             <br>
-      
             <p>Tel: 0761-848504 <br>Mail: info@singilarity.com <br>Adress: Alpvägen 22, 16865 Bromma</p>
-
            </div>
         </div>
 
